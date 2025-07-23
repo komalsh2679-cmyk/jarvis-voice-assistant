@@ -27,5 +27,37 @@ This is a voice-based virtual assistant named **Jarvis** built using Python. It 
 1. **Install Python 3.x** if not already installed.
 
 2. **Install Required Libraries**:
-   ```bash
    pip install pyttsx3 SpeechRecognition wikipedia
+
+ 
+Run this in your terminal or command prompt:
+
+python JarvisVirtualAssistant.py
+
+
+Follow Prompts:
+
+Speak your commands when prompted.
+
+Example commands:
+
+“Wikipedia Albert Einstein”
+
+“Open YouTube”
+
+“Play music”
+
+“What is the time”
+
+“Send email to Harry”
+
+📂 Customization
+🔊 Music Folder: You can specify your music folder path when prompted (or leave blank to skip).
+
+📨 Email Credentials: You'll be asked to add your Gmail ID and password directly into the script if environment variables are not used.
+
+⚠️ Note: For the email feature to work securely, it's recommended to use Gmail App Passwords.
+
+🙋‍♀️ Created By
+Komal Sharma
+A personal project to explore Python speech recognition, automation, and voice interfaces.
